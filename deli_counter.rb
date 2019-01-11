@@ -2,10 +2,10 @@ def line(queue)
   if queue.size == 0
     message = "The line is currently empty."
   else #there are people in the line
-    message = "The line is currently: "
+    message = "The line is currently:"
     position = 1
     queue.each do |element|
-      message += "#{position}. #{element} "
+      message += " #{position}. #{element}"
       position += 1
     end
   end
