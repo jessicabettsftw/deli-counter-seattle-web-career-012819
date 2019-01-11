@@ -23,7 +23,7 @@ def now_serving(queue)
     puts "There is nobody waiting to be served!"
     return queue
   else
-    puts "Now serving #{queue.first}!"
+    puts "Currently serving #{queue.first}."
     return queue.shift
   end
 end
