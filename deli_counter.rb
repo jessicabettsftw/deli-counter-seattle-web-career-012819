@@ -25,4 +25,5 @@ def now_serving(queue)
   else
     puts "Now serving #{queue.first}!"
     return queue.shift
+  end
 end
