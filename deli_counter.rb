@@ -17,3 +17,7 @@ def take_a_number(queue, name)
   index = queue.index(name) + 1
   puts "Welcome, #{name}. You are number #{index} in line."
 end
+
+def now_serving(queue)
+  
+end
