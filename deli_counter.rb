@@ -11,3 +11,7 @@ def line(queue)
   end
   puts message
 end
+
+def take_a_number(queue, name)
+  queue.push(name)
+end
