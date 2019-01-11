@@ -14,6 +14,6 @@ end
 
 def take_a_number(queue, name)
   queue.push(name)
-  index = queue.index_of(name) + 1
+  index = queue.index(name) + 1
   puts "Welcome, #{name}. You are number #{index} in line."
 end
