@@ -6,5 +6,6 @@ def line(queue)
     position = 1
     queue.each do |element|
       print "#{position}. #{element} "
+    end
   end
 end
